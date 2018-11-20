@@ -1,0 +1,17 @@
+/* miniprogram/pages/photoPage/photoPage.wxss */
+.imgList{
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  width:100%;
+  padding-bottom: 150rpx;
+}
+.imgList .imgList-li{
+  display: flex;
+  width: calc(50% - 20px);
+  margin:10px;
+}
+.imgList .imgList-li image{
+  height:320rpx;
+  border-radius: 5px;
+}

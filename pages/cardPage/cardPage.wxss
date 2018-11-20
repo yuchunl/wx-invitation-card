@@ -1,0 +1,11 @@
+/* miniprogram/pages/storyPage/storyPage.wxss */
+
+.card{
+  width:100%;
+}
+
+.card image{
+  width:100%;
+  height:auto;
+  margin-bottom: 120rpx;
+}

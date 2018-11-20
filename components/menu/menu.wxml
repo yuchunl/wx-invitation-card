@@ -1,0 +1,25 @@
+<!--components/menu/menu.wxml-->
+  <view class='tabAction'>
+    <view class='tabBox'>
+      <view class='tab' bindtap='toStoryTab'>
+        <image src='/images/menu/card2.png' mode='widthFix'></image>
+        <text>喜帖</text>
+      </view>
+      <view class='tab' bindtap='toPhotoTab'>
+        <image src='/images/menu/photo2.png' mode='widthFix'></image>
+        <text>相片</text>
+      </view>
+      <view class='tab special' bindtap='toIndexTab'>
+        <image src='/images/menu/photo2.png' mode='widthFix'></image>
+      </view>
+      <view class='tab' bindtap='toMapTab'>
+        <image src='/images/menu/map.png' mode='widthFix'></image>
+        <text>地图</text>
+      </view>
+      <view class='tab' bindtap='toContactTab'>
+        <image src='/images/menu/couple.png' mode='widthFix'></image>
+        <text>联系</text>
+      </view>
+    </view>
+    <view class='FoX' hidden='{{!iPhoneX}}'></view>
+  </view>

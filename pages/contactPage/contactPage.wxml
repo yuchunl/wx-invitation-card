@@ -1,0 +1,8 @@
+<view class="contactPage">
+  <image class="bg" src="/images/stage.jpg" mode='widthFix' />
+</view>
+<view class="couple">
+  <image class="girl" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542690639091&di=1e8ac625c3b1f8dee313565f13442b52&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F61%2F25%2F02M58PICTxa_1024.png" mode='widthFix' bindtap="callingGirl" />
+  <image class="boy" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542690639091&di=1e8ac625c3b1f8dee313565f13442b52&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F61%2F25%2F02M58PICTxa_1024.png" mode='widthFix' bindtap="callingBoy" />
+</view>
+<menu></menu>

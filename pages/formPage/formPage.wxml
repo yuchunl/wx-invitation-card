@@ -1,0 +1,31 @@
+<!--miniprogram/pages/contactPage/contactPage.wxml-->
+<view class="formPage">
+ <image class="bg" src="/images/background.png" mode='widthFix' />
+</view>
+<view class="formContent">
+  <view class="topImg">
+    <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542690701212&di=aa651704e10734d0e1fc7b4bb5a9aa6a&imgtype=0&src=http%3A%2F%2Fpic7.photophoto.cn%2F20080421%2F0021033868338460_b.jpg"  mode='widthFix' />
+  </view>
+  <view class="guestForm">
+    <form bindsubmit="formSubmit">
+      <view class="field clearfix">
+        <label class="label" for="name">姓名*</label>
+        <input class="input" type="text" name="name"/>
+      </view>
+      <view class="field clearfix">
+        <label class="label" for="num">参加人数*</label>
+        <input class="input" type='number' name="num"/>
+      </view>
+      <view class="field clearfix">
+        <label class="label" for="phone">联系电话*</label>
+        <input class="input" type='number' name="phone"/>
+      </view>
+      <view class="formBtns">
+        <button class="formBtn submitBtn" formType="submit">填好啦！</button>
+        <button class="formBtn" bindtap='notComeBtn'>算了，不去了</button>
+      </view>
+    </form>
+  </view>
+</view>
+<menu></menu>
+

@@ -1,0 +1,103 @@
+/**index.wxss**/
+page{
+  width:100%;
+  height:100vh;
+}
+.landing{
+  width:100%;
+  min-height:100vh;
+}
+
+.landing image {
+  width:100%;
+  min-height:calc(100vh - 120rpx);
+}
+
+.guest-button{
+  margin-bottom: 130rpx;
+}
+
+.buttonWrap{
+  display: flex;
+  justify-content: center;
+}
+
+.guest-button button{
+  margin:15rpx;
+  width:250rpx;
+  font-size: 30rpx;
+  display: block;
+
+}
+
+.guest-button button.yesBtn{
+  background-color: #FF9C41;
+  color:#fff;
+  border: 1px solid #FF9C41;
+}
+
+.guest-button button.noBtn{
+  color:#ccc;
+}
+
+.count{
+  position: absolute;
+  left:50%;
+  top:11vh;
+  transform: translateX(-50%);
+  justify-content: center;
+  text-align: center;
+}
+
+.count image{
+  margin-bottom: 15rpx;
+  width:70vw;
+}
+
+.conutDownContainer{
+  width: 518rpx;
+  margin:auto;
+}
+
+.countTitle{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15rpx;
+  font-size: 34rpx;
+}
+
+.conutDown{
+  display: inline-block;
+  height: 60rpx;
+  width: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #FF9C41;
+  font-size:34rpx;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.time{
+  text-align: center;
+}
+
+.time text{
+  display: block;
+  margin:5px;
+}
+
+.userBtn {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  opacity: 0;
+  top:0;
+  z-index: 9999;
+}
+
+.countTitleBox{
+  margin-top:5vh;
+}

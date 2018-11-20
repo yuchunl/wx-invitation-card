@@ -1,0 +1,45 @@
+/* miniprogram/pages/mapPage/mapPage.wxss */
+.mapPage{
+  margin-bottom:80px;
+}
+.mapPage .hotalMap {
+  width: 100%;
+  height: 67vh;
+  margin-bottom: 15px;
+}
+
+.mapPage text{
+  display: flex;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mapPage .hotalName {
+  color: #FF9C41;
+  margin:10px auto;
+}
+.mapDetail{
+  margin:15px;
+  margin-bottom: 150rpx;
+}
+
+.mapDetail button{
+  width:180px;
+  font-size: 13px;
+  background-color: #FF9C41;
+  color: #fff;
+}
+
+.mapDetail .address{
+  font-size: 13px;
+  margin:15px;
+}
+/* .mapModal{
+  position: absolute;
+  bottom:100px;
+  left:50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding:15px;
+  border-radius: 5px;
+  box-shadow:5px 7px 16px #33102F;
+} */

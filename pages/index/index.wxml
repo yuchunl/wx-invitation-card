@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view>
+  <view class="landing">
+  <image class="landing-image" src="/images/background.png" mode='widthFix'></image>
+  </view>
+  <view class="count">
+    <image src="/images/landing.gif" mode='widthFix'></image>
+    <view class="countTitleBox">
+      <text class="countTitle">親愛的, {{userInfo.nickName}}</text>
+      <text class="countTitle">距离婚礼还有…</text> 
+    </view>
+    <view class="conutDownContainer">
+      <text class="conutDown">{{clock.day}}</text>天 
+      <text class="conutDown">{{clock.hou}}</text>時 
+      <text class="conutDown">{{clock.min}}</text>分 
+      <text class="conutDown">{{clock.sec}}</text>秒 
+    </view>
+    <view class="guest-button">
+      <view class="buttonWrap">
+        <button class="yesBtn" bindtap='toFormPage' >我会莅临现场</button>
+      </view>
+      <view class="buttonWrap">
+        <button class="noBtn" bindtap='notComeBtn'>我可能来不了</button>      
+      </view>
+    </view>
+  </view>
+
+  <button wx:if='{{!auth}}' open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='userBtn'></button>
+</view>
+<menu></menu>
+
